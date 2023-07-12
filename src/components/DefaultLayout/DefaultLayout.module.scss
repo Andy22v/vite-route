@@ -1,0 +1,26 @@
+.DefaultLayout {
+    display: flex;
+    flex-direction: column;
+
+    .navbar{
+        background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 20px;
+    }
+    
+    ul{
+        display: flex;
+        gap: 20px;
+    }
+    
+    li{
+        list-style-type: none;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
